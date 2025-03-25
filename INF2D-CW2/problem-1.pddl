@@ -29,7 +29,7 @@
         (road N11 N9)
         (road N12 N11)
         (road N12 N13)
-        (item-at c N9)
+        (at c N9)
         (item-at pizza N12)
         (item-at sushi N2)
         (item-at curry N2)
