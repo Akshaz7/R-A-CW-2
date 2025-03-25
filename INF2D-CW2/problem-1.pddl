@@ -57,4 +57,3 @@
     ))
 )
 
-./ ff -o domain-1.pddl -f problem-1.pddl
