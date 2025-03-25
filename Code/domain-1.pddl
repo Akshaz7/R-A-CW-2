@@ -1,6 +1,6 @@
-(define (domain logistics)
+(define (domain courier-world-domain)
     (:requirements :strips :typing)
-    (:types courier location item)
+    (:types courier location item customer)
 
     (:predicates
         (at ?c - courier ?l - location) ; courier is at location
