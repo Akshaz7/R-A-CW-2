@@ -28,7 +28,7 @@
 
     (:action DELIVER
         :parameters (?c - courier ?i - item ?l - location)
-        :precondition (and (at ?c ?l) (has ?c ?i) (needs ?l ?i))
+        :precondition (and (at ?c ?l) (has ?c ?i) (needs ?i ?l))
         :effect (and 
             (not (has ?c ?i)) 
             (item-at ?i ?l) 
