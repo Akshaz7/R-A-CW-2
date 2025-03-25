@@ -8,7 +8,7 @@
         (item-at ?i - item ?l - location) ; item is at location
         (has ?c - courier ?i - item) ; courier has item
         (delivered ?l - location ?i - item) ; delivered item at location
-        (needs ?l - location ?i - item) ; location needs item
+        (needs ?i - item ?l - location ) ; location needs item
     )
 
     (:action MOVE
