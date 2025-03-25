@@ -33,7 +33,7 @@
             (not (has ?c ?i)) 
             (item-at ?i ?l) 
             (delivered ?l ?i) 
-            (not (needs ?l ?i))
+            (not (needs ?i ?l))
         )
     )
 )
