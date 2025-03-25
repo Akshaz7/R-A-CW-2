@@ -5,7 +5,7 @@
     (:predicates
         (at ?c - courier ?l - location) ; courier is at location
         (road ?from - location ?to - location) ; road exists between locations
-        (item-at ?i - item ?l - location) ; item is at location
+        (at ?i - item ?l - location) ; item is at location
         (has ?c - courier ?i - item) ; courier has item
         (delivered ?l - location ?i - item) ; delivered item at location
         (needs ?l - location ?i - item) ; location needs item
