@@ -11,8 +11,9 @@
         (road N1 N6)
         (road N1 N9)
         (road N1 N12)
-        (road N2 N1)
-        (road N2 N3) ; removed N3 to N2 road
+        ;removed N2 to N1 road
+        ;removed N3 to N2 road
+        (road N2 N3) 
         (road N3 N4)
         (road N4 N5)
         (road N5 N2)
