@@ -16,7 +16,6 @@
         :precondition (and (at ?c ?from) (road ?from ?to) 
             (not (exists (?other - courier)
                 (and (at ?other ?to) (not (= ?other ?c))))))
-        )
         :effect (and (not (at ?c ?from)) (at ?c ?to))
     )
 
